@@ -5,6 +5,7 @@ import Constants from '../constants';
 class Home extends React.Component {
     constructor() {
         super()
+
         this.state = {
             on: false
         }
