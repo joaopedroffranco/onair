@@ -25,69 +25,23 @@
 .onair.on {
     color: red;
     border-color: red;
-    animation: pulse 2s ease 0s infinite;
-    -webkit-animation: pulse 2s ease 0s infinite;
-    -moz-animation: pulse 2s ease 0s infinite;
-    -ms-animation: pulse 2s ease 0s infinite;
-    -o-animation: pulse 2s ease 0s infinite;
+    animation: pulse 1.5s ease 0s infinite;
 }
 
 @keyframes pulse {
     0% {
+		color: rgb(182, 25, 25);
+    	border-color: rgb(182, 25, 25);
         transform: scale(2);
     }
     50% {
+		color: red;
+		border-color: red;
         transform: scale(2.2);
     }
     100% {
+		color: rgb(182, 25, 25);
+    	border-color: rgb(182, 25, 25);
         transform: scale(2);
-    }
-}
-
-@-webkit-keyframes pulse {
-    0% {
-        transform: scale(2);
-    }
-    50% {
-        transform: scale(2.2);
-    }
-    100% {
-        transform: scale(2);
-    }
-}
-
-@-moz-keyframes pulse {
-    0% {
-        transform: scale(2);
-    }
-    50% {
-        transform: scale(2.2);
-    }
-    100% {
-        transform: scale(2);
-    }
-}
-
-@-ms-keyframes pulse {
-    0% {
-        transform: scale(2);
-    }
-    50% {
-        transform: scale(2.2);
-    }
-    100% {
-        transform: scale(2);
-    }
-}
-
-@-o-keyframes pulse {
-    0% {
-        transform: scale(2);
-    }
-    50% {
-        transform: scale(2.2);
-    }
-    100% {
-        transform: scale(2);
-    }
+	}
 }
